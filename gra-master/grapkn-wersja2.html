@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Gierka</title>
+    <script type="text/javascript" src="grapkn.js"></script>
+    <link rel="stylesheet" type="text/css" href="grapkn.css">
+	<link href="https://fonts.googleapis.com/css?family=Charm|Oswald|Fredoka+One" rel="stylesheet">
+</head>
+<body>
+</br>
+
+<div id="tytul">
+	PAPIER KAMIEŃ NOŻYCE
+	<p>Oto gra w papier kamień nożyce, zaznacz opcje i kliknij graj</p>
+	</br>
+</div>
+
+<div id="przyciski">
+	<div id="lewo">
+		
+		<button id="but1p" onclick="gracz1('p')"></button></br>
+		<button id="but1k" onclick="gracz1('k')"></button></br>
+		<button id="but1n" onclick="gracz1('n')"></button></br>
+		<button id="los1" onclick="computer(1)">losuj</button>
+		</br></br>
+	</div>
+	<div id="prawokkk">
+		<button id="los2" class="com" onclick="computer(2)"></button>		
+	</div>
+	
+
+</div>
+
+<div id="pole">
+
+	<div id="pole1">
+		<span id="bitewka1"></span>
+	</div>
+	
+	<div id="polemid">
+		</br></br></br></br></br></br></br></br>vs
+	</div>
+	
+	<div id="pole2">
+		<span id="bitewka2"></span>
+	</div>
+	
+</div>
+
+<div id="info">
+
+	<button id="but" onclick="graj()">Graj</button></br>
+	<a href="grapknzasady-wersja2.html"><button id="zasad">Zasady</button></a></br>
+	<a href="grapknpowitanie.html"><button id="powtót">Wróc do wyboru przeciwnika</button></a></br></br></br>
+		
+	Wyniki
+	</br>
+	Gracz 1:	<span id="wynikg1"></span>
+	</br>
+	Komputer:	<span id="wynikg2"></span>
+
+</div>
+
+
+</body>
+</html>
